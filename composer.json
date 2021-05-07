@@ -1,0 +1,31 @@
+{
+    "name": "keyhoang/php-consul-env" ,
+    "description": "Create .env.consul with consul replace .env",
+    "keywords": [
+        "laravel",
+        "lumen",
+        "env",
+        "toprate",
+        "consul"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+      "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7|^8"
+    },
+    "authors": [
+        {
+            "name": "Hoang Ky",
+            "email": "hoangky@toprate.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KeyHoang\\laravelConsulEnv\\": "src/"
+        }
+    }
+}
