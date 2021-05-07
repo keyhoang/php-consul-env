@@ -1,6 +1,6 @@
 <?php
 
-namespace KeyHoang\laravelConsulEnv;
+namespace KeyHoang\PhpConsulEnv;
 
 
 class ConsulKV
