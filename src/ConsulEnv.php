@@ -10,7 +10,7 @@ class ConsulEnv
     protected static string $path;
     protected static string $token;
 
-    public function ConsulEnv(string $domain, string $path, string $token)
+    public function __construct(string $domain, string $path, string $token)
     {
         self::$domain = $domain;
         self::$path   = $path;
